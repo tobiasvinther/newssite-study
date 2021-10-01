@@ -1,0 +1,55 @@
+#red-text{
+    Color: orange;
+}
+
+#title-top {
+    font-family: "Cambria", serif;
+    font-weight: bolder;
+    font-size: 130px;
+    text-align: center;
+    position: relative;
+
+}
+
+#title-wrapper{
+    display: inline-block;
+}
+
+.red-box {
+    height: 100px;
+    width: 100px;
+    background: red;
+    horiz-align: right;
+    display: inline-block;
+    white-space: pre;
+}
+
+.white-background-box {
+    color: white;
+    height: 400px;
+    width: 100%;
+}
+
+.top-links {
+    color: dimgrey;
+    position: relative;
+    left: +80px;
+    padding: 6px;
+}
+
+.normal-headline {
+    font-size: 40px;
+    background: white;
+    horiz-align: center;
+    width: 900px;
+    overflow-wrap: break-word;
+    padding: 20px;
+
+}
+
+.border {
+    max-width: 600px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
