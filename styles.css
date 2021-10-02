@@ -23,6 +23,9 @@
     color: white;
     height: 400px;
     width: 100%;
+    display: inline-block;
+    line-height: 18px;
+    position: absolute;
 }
 
 .top-links {
@@ -30,11 +33,13 @@
     position: relative;
     left: +80px;
     padding: 6px;
+    text-decoration: none;
 }
 
 .nav-links {
     color: dimgrey;
     padding: 8px;
+    text-decoration: none;
 }
 
 .normal-headline {
@@ -42,7 +47,7 @@
     font-size: 40px;
     background: white;
     width: 900px;
-    padding: 20px;
+    padding: 10px;
 }
 
 .border {
@@ -50,7 +55,8 @@
     max-width: 600px;
     padding-left: 100px;
     padding-right: 100px;
-
+    margin-left: 90px;
+    margin-right: 90px;
 }
 
 .block {
